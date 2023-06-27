@@ -1,0 +1,34 @@
+.navbar{
+    background-color: rgba(58, 66, 101, 0.8);
+}
+
+.wrapper {
+    max-width: var(--wrapper1);
+    min-width: var(--wrapper1-min);
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+*{
+    font-size: 18px;
+}
+        
+
+li.menu-item:not(:last-child) {
+    margin-bottom: 3px;
+}
+
+#carousello{
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+
+.luogo_nome{
+    margin-left: 10px;
+}
+
+
+

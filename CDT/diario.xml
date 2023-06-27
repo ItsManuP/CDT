@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Filename: diario.xml
+    Author: Manuel Pilia
+    Date: 2023-06-10 -->
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+
+<teiHeader>
+    <fileDesc>
+        <titleStmt>
+        <title xml:lang="it"> Diari Di Emanuele Artom </title>
+        <title type="sub"><date from="1943" to="1944"> Novembre 1943 - 23 Febbraio 1944 </date></title>
+        <author ref="#EA" role="partigiano"> Emanuele Artom </author>
+        </titleStmt>
+    
+
+    <editionStmt>
+        <edition n="Edizione Digitale"> Edizione Digitale <date when="2023-05"> Maggio 2023 </date></edition>
+        <respStmt>
+            <resp> Progetto Cordinato da: </resp>
+                <persName>
+                    <name ref="#AMDG"> Angelo Mario Del Grosso </name>
+                </persName>
+        </respStmt>
+
+        <respStmt>
+            <resp> Codifica del testo realizzata da: </resp>
+                <persName>
+                    <name ref="#MP"> Manuel Pilia </name>
+                </persName>
+        </respStmt>
+        <respStmt>
+            <resp>Pubblicati integralmente:</resp>
+                <persName>
+                    <name ref="#GS">Guri Schwarz</name>
+                </persName>
+        </respStmt>
+    </editionStmt>
+
+    <publicationStmt>
+        <publisher ref="#Unipi"> Università di Pisa </publisher>
+            <pubPlace>Pisa</pubPlace>
+                <availability status="free"><p>Opera di libero accesso</p></availability>   
+                <date when="2023-05"> Aprile 2023 </date> 
+    </publicationStmt>
+
+    <sourceDesc>
+        <msDesc>
+        <msIdentifier>
+        <country key="IT" type="nation">Italia</country>
+        <settlement>Milano</settlement>
+        <institution>La Fondazione Centro di Documentazione Ebraica Contemporanea</institution>
+        <repository role="Instituto Storia"> La Fondanzione <placeName ref="#CDEC">Centro di documentazione Ebraica Contemporanea</placeName></repository>
+        <collection>Fondo Emanuele Artom</collection>
+        <idno type="inventory">	b. 1 , fasc. 9 ,</idno>
+        </msIdentifier>
+
+        <msContents>
+        <msItem>
+        <author xml:lang="it" ref="#EA"> Emanuele Artom</author>
+        <respStmt>
+            <resp>Lettera di accompagnamento scritta da:</resp>
+            <persName ref="#AA">Amalia Artom</persName>
+            </respStmt>
+            <title xml:lang="it">Diario di Emanuele Artom </title>
+            <title type="sub"><date from="1943-11" to="1944-02-23"> Novembre 1943 - 23 febbraio 1944 </date></title>
+            <textLang mainLang="it">Italiano</textLang>      
+        </msItem>
+        </msContents>
+    
+        <physDesc>
+        <objectDesc form="manoscritto">
+        <supportDesc material="carta" source="http://digital-library.cdec.it/cdec-web/storico/detail/IT-CDEC-ST0003-000006/diari.html"> 
+        <support>
+        <material>Fogli di Carta ingialliti</material>
+        </support>
+        <extent>
+            <measureGrp type="notebook" unit="pages" source="http://digital-library.cdec.it/cdec-web/viewer/cdecxDamsHist003/IT-CDEC-ST0003-000006#page/1/mode/1up">
+            <measure quantity="173"> 173 pagine con: </measure>
+            <measure quantity="1"> 1 pagina frontale e </measure>
+            <measure quantity="1"> 1 foglietto </measure>
+            </measureGrp> 
+            </extent>
+            <condition>Le pagine sono ben conservate, non mostrano segni di usura se non quelli del tempo visibile da un leggera patina opaca stesa dal tempo</condition>
+        </supportDesc>
+        </objectDesc>
+         <handDesc>
+                <handNote scope="major" medium="black pencil" script="cursive"> 
+                <p>Il diario è scritto solamente da: <persName ref="#EA">Emanuele Artom</persName></p>
+                </handNote>
+                <handNote scope="minor" medium="black pen red pen" script="cursive">
+				<p>La prima pagina del manoscritto contiene un'epigrafo di <persName ref="AA">Amalia Artom</persName>.</p>
+				</handNote>
+                </handDesc>
+        </physDesc>
+
+        <history>
+                <origin from="1943-11" to="1944-02-23">
+                    <p> La seconda parte del diario va dal novembre 1943 al 23 febbraio 1944.
+                        Raccolta degli scritti autografi di <persName ref="#EA">Emanuele Artom</persName> redatti tra il 1943 e il 1944 durante la persecuzione razziale,
+                        accompagnati dalla lettera della madre di Emanuele Artom <persName ref="#AA">Amalia Artom</persName>. 
+                        La raccolta degli scritti si trova presso il : <placeName ref="#CDEC">Centro di Documentazione Ebraica Contemporanea</placeName>.
+                    </p>
+                </origin>                           
+        </history>      
+
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+
+
+</teiHeader>
+
+<facsimile>
+    <surfaceGrp>
+        <surface n="1" xml:id="pagina_quaranta">
+            <graphic url='assets/img/pagina_40.jpeg' width="500px" height="1024px"/>
+            <zone ulx="43" uly="23" lrx="688" lry="999" xml:id="facs_pag40"/> 
+            
+            <zone ulx="51" uly="23" lrx="666" lry="63" rendition="line" xml:id="facs_pag40_lb1"/> <!-- Riga 1 -->
+            <zone ulx="51" uly="66" lrx="664" lry="95" rendition="line" xml:id="facs_pag40_lb2"/> <!-- Riga 2 -->
+            <zone ulx="52" uly="108" lrx="685" lry="134" rendition="line" xml:id="facs_pag40_lb3"/> <!-- Riga 3 -->
+            <zone ulx="52" uly="141" lrx="682" lry="161" rendition="line" xml:id="facs_pag40_lb4"/> <!-- Riga 4 -->
+            <zone ulx="52" uly="173" lrx="687" lry="201" rendition="line" xml:id="facs_pag40_lb5"/> <!-- Riga 5 -->
+            <zone ulx="55" uly="209" lrx="683" lry="233" rendition="line" xml:id="facs_pag40_lb6"/> <!-- Riga 6 -->
+            <zone ulx="58" uly="244" lrx="685" lry="270" rendition="line" xml:id="facs_pag40_lb7"/> <!-- Riga 7 -->
+            <zone ulx="57" uly="282" lrx="682" lry="310" rendition="line" xml:id="facs_pag40_lb8"/> <!-- Riga 8 -->
+            <zone ulx="64" uly="319" lrx="683" lry="339" rendition="line" xml:id="facs_pag40_lb9"/> <!-- Riga 9 -->
+            <zone ulx="60" uly="356" lrx="686" lry="384" rendition="line" xml:id="facs_pag40_lb10"/> <!-- Riga 10 -->
+            <zone ulx="62" uly="389" lrx="683" lry="419" rendition="line" xml:id="facs_pag40_lb11"/> <!-- Riga 11 -->
+            <zone ulx="60" uly="428" lrx="677" lry="448" rendition="line" xml:id="facs_pag40_lb12"/> <!-- Riga 12 -->
+            <zone ulx="56" uly="506" lrx="680" lry="518" rendition="line" xml:id="facs_pag40_lb13"/> <!-- Riga 13 -->
+            <zone ulx="47" uly="537" lrx="683" lry="561" rendition="line" xml:id="facs_pag40_lb14"/> <!-- Riga 14 -->
+            <zone ulx="46" uly="575" lrx="682" lry="596" rendition="line" xml:id="facs_pag40_lb15"/> <!-- Riga 15 -->
+            <zone ulx="42" uly="612" lrx="671" lry="625" rendition="line" xml:id="facs_pag40_lb16"/> <!-- Riga 16 -->
+            <zone ulx="46" uly="650" lrx="687" lry="656" rendition="line" xml:id="facs_pag40_lb17"/> <!-- Riga 17 -->
+            <zone ulx="49" uly="680" lrx="686" lry="687" rendition="line" xml:id="facs_pag40_lb18"/> <!-- Riga 18 -->
+            <zone ulx="52" uly="716" lrx="680" lry="723" rendition="line" xml:id="facs_pag40_lb19"/> <!-- Riga 19 -->
+            <zone ulx="47" uly="748" lrx="673" lry="757" rendition="line" xml:id="facs_pag40_lb20"/> <!-- Riga 20 -->
+            <zone ulx="47" uly="781" lrx="667" lry="790" rendition="line" xml:id="facs_pag40_lb21"/> <!-- Riga 21 -->
+            <zone ulx="48" uly="816" lrx="654" lry="822" rendition="line" xml:id="facs_pag40_lb22"/> <!-- Riga 22 -->
+            <zone ulx="52" uly="846" lrx="667" lry="847" rendition="line" xml:id="facs_pag40_lb23"/> <!-- Riga 23 -->
+            <zone ulx="52" uly="842" lrx="671" lry="851" rendition="line" xml:id="facs_pag40_lb24"/> <!-- Riga 24 -->
+            <zone ulx="45" uly="870" lrx="682" lry="883" rendition="line" xml:id="facs_pag40_lb25"/> <!-- Riga 25 -->
+            <zone ulx="53" uly="904" lrx="679" lry="919" rendition="line" xml:id="facs_pag40_lb26"/> <!-- Riga 26 -->
+            <zone ulx="47" uly="931" lrx="677" lry="952" rendition="line" xml:id="facs_pag40_lb27"/> <!-- Riga 27 -->
+            <zone ulx="45" uly="959" lrx="678" lry="976" rendition="line" xml:id="facs_pag40_lb28"/> <!-- Riga 28 -->
+            <zone ulx="46" uly="988" lrx="665" lry="1001" rendition="line" xml:id="facs_pag40_lb29"/> <!-- Riga 29 -->
+ 
+        </surface>
+
+
+
+        <surface n="2" xml:id="pagina_quarantuno">
+            <graphic url="assets/img/pagina_41.jpeg" width="500px" height="1024px"/>
+            <zone ulx="27" uly="17" lrx="679" lry="937" xml:id="facs_pag41"/> <!-- Contenuto Totale Pagina 41-->
+
+            <zone ulx="31" uly="20" lrx="683" lry="62" rendition="line" xml:id="facs_pag41_lib1"/> <!-- Riga 1-->
+            <zone ulx="40" uly="49" lrx="678" lry="92" rendition="line" xml:id="facs_pag41_lib2"/>   <!-- Riga 2-->
+            <zone ulx="44" uly="82" lrx="669" lry="116" rendition="line" xml:id="facs_pag41_lib3"/>  <!-- Riga 3-->
+            <zone ulx="39" uly="110" lrx="674" lry="146" rendition="line" xml:id="facs_pag41_lib4"/> <!-- Riga 4-->
+            <zone ulx="44" uly="136" lrx="667" lry="176" rendition="line" xml:id="facs_pag41_lib5"/> <!-- Riga 5-->
+            <zone ulx="41" uly="172" lrx="670" lry="205" rendition="line" xml:id="facs_pag41_lib6"/> <!-- Riga 6-->
+            <zone ulx="38" uly="199" lrx="676" lry="240" rendition="line" xml:id="facs_pag41_lib7"/> <!-- Riga 7-->
+            <zone ulx="40" uly="226" lrx="677" lry="267" rendition="line" xml:id="facs_pag41_lib8"/> <!-- Riga 8-->
+            <zone ulx="38" uly="261" lrx="669" lry="293" rendition="line" xml:id="facs_pag41_lib9"/> <!-- Riga 9-->
+            <zone ulx="35" uly="295" lrx="668" lry="325" rendition="line" xml:id="facs_pag41_lib10"/> <!-- Riga 10-->
+            <zone ulx="34" uly="327" lrx="663" lry="352" rendition="line" xml:id="facs_pag41_lib11"/> <!-- Riga 11-->
+            <zone ulx="32" uly="356" lrx="675" lry="391" rendition="line" xml:id="facs_pag41_lib12"/> <!-- Riga 12-->
+            <zone ulx="35" uly="386" lrx="676" lry="422" rendition="line" xml:id="facs_pag41_lib13"/> <!-- Riga 13-->
+            <zone ulx="32" uly="424" lrx="685" lry="458" rendition="line" xml:id="facs_pag41_lib14"/> <!-- Riga 14-->
+            <zone ulx="37" uly="452" lrx="666" lry="485" rendition="line" xml:id="facs_pag41_lib15"/> <!-- Riga 15-->
+            <zone ulx="41" uly="488" lrx="661" lry="519" rendition="line" xml:id="facs_pag41_lib16"/> <!-- Riga 16-->
+            <zone ulx="40" uly="516" lrx="666" lry="557" rendition="line" xml:id="facs_pag41_lib17"/> <!-- Riga 17-->
+            <zone ulx="42" uly="550" lrx="656" lry="586" rendition="line" xml:id="facs_pag41_lib18"/> <!-- Riga 18-->
+            <zone ulx="45" uly="582" lrx="673" lry="616" rendition="line" xml:id="facs_pag41_lib19"/> <!-- Riga 19-->
+            <zone ulx="38" uly="614" lrx="650" lry="640" rendition="line" xml:id="facs_pag41_lib20"/> <!-- Riga 20-->
+            <zone ulx="39" uly="637" lrx="659" lry="671" rendition="line" xml:id="facs_pag41_lib21"/> <!-- Riga 21-->
+            <zone ulx="44" uly="671" lrx="651" lry="701" rendition="line" xml:id="facs_pag41_lib22"/> <!-- Riga 22-->
+            <zone ulx="39" uly="695" lrx="661" lry="728" rendition="line" xml:id="facs_pag41_lib23"/> <!-- Riga 23-->
+            <zone ulx="46" uly="726" lrx="641" lry="758" rendition="line" xml:id="facs_pag41_lib24"/> <!-- Riga 24-->
+            <zone ulx="43" uly="760" lrx="638" lry="790" rendition="line" xml:id="facs_pag41_lib25"/> <!-- Riga 25-->
+            <zone ulx="44" uly="791" lrx="630" lry="818" rendition="line" xml:id="facs_pag41_lib26"/> <!-- Riga 26-->
+            <zone ulx="44" uly="823" lrx="626" lry="856" rendition="line" xml:id="facs_pag41_lib27"/> <!-- Riga 27-->
+            <zone ulx="50" uly="855" lrx="550" lry="887" rendition="line" xml:id="facs_pag41_lib28"/> <!-- Riga 28-->
+
+        </surface>
+
+        <surface n="3" xml:id="pagina_sessantatre">
+        <graphic url="assets/img/pagina_63.jpeg" width="500px" height="1024px" xml:id="facs_pag63"/>
+
+            <zone ulx="73" uly="67" lrx="687" lry="904"/> <!--Contenuto Totale Pagina 63 -->
+
+            <zone ulx="81" uly="79" lrx="631" lry="123" rendition="line" xml:id="facs_pag63_lib1"/> <!-- Riga 1-->
+            <zone ulx="84" uly="124" lrx="627" lry="165" rendition="line" xml:id="facs_pag63_lib2"/> <!-- Riga 2-->
+            <zone ulx="86" uly="166" lrx="618" lry="200" rendition="line" xml:id="facs_pag63_lib3"/> <!-- Riga 3-->
+            <zone ulx="92" uly="204" lrx="666" lry="237" rendition="line" xml:id="facs_pag63_lib4"/> <!-- Riga 4-->
+            <zone ulx="90" uly="239" lrx="637" lry="278" rendition="line" xml:id="facs_pag63_lib5"/> <!-- Riga 5-->
+            <zone ulx="88" uly="281" lrx="249" lry="311" rendition="line" xml:id="facs_pag63_lib6"/> <!-- Riga 6-->
+            <zone ulx="88" uly="315" lrx="621" lry="362" rendition="line" xml:id="facs_pag63_lib7"/> <!-- Riga 7-->
+            <zone ulx="90" uly="362" lrx="619" lry="397" rendition="line" xml:id="facs_pag63_lib8"/> <!-- Riga 8-->
+            <zone ulx="94" uly="399" lrx="636" lry="439" rendition="line" xml:id="facs_pag63_lib9"/> <!-- Riga 9-->
+            <zone ulx="95" uly="439" lrx="662" lry="474" rendition="line" xml:id="facs_pag63_lib10"/> <!-- Riga 10-->
+            <zone ulx="88" uly="476" lrx="653" lry="520" rendition="line" xml:id="facs_pag63_lib11"/> <!-- Riga 11-->
+            <zone ulx="88" uly="508" lrx="641" lry="554" rendition="line" xml:id="facs_pag63_lib12"/> <!-- Riga 12-->
+            <zone ulx="90" uly="552" lrx="630" lry="588" rendition="line" xml:id="facs_pag63_lib13"/> <!-- Riga 13-->
+            <zone ulx="92" uly="587" lrx="647" lry="643" rendition="line" xml:id="facs_pag63_lib14"/> <!-- Riga 14-->
+            <zone ulx="97" uly="630" lrx="631" lry="678" rendition="line" xml:id="facs_pag63_lib15"/> <!-- Riga 15-->
+            <zone ulx="95" uly="668" lrx="637" lry="715" rendition="line" xml:id="facs_pag63_lib16"/> <!-- Riga 16-->
+            <zone ulx="93" uly="708" lrx="641" lry="751" rendition="line" xml:id="facs_pag63_lib17"/> <!-- Riga 17-->
+            <zone ulx="95" uly="748" lrx="632" lry="789" rendition="line" xml:id="facs_pag63_lib18"/> <!-- Riga 18-->
+            <zone ulx="84" uly="787" lrx="659" lry="836" rendition="line" xml:id="facs_pag63_lib19"/> <!-- Riga 19-->
+            <zone ulx="95" uly="831" lrx="648" lry="874" rendition="line" xml:id="facs_pag63_lib20"/> <!-- Riga 20-->
+
+        </surface>
+    </surfaceGrp>
+</facsimile>
+
+
+
+<text subtype="diary" hand="#EA">
+    <group>
+        <group xml:id="diario" xml:lang="it" type="full_page">
+            <text>
+                <body>
+                <ab type="day">				
+					<!--Codifica pagina 40-->
+					<pb n="40" facs="pagina_40.jpeg" xml:id="pag40" />
+                    <date when="1943-12-07"><gap reason="omitted"/></date>
+
+                    <!--Pagina 40 -->
+                    
+                    <lb xml:id="pag40_lb1" facs="facs_pag40_lb1"/> Sono in un albergo ed aspetto l'ora di <sic>:</sic> cena<pc>.</pc>
+                    <lb xml:id="pag40_lb2" facs="facs_pag40_lb2"/> Stamane scesi a <persName ref="#St"> <abbr type="initial">St. </abbr> <expan>Sant'</expan> </persName> Antonio, dove c'era                  
+                    <lb xml:id="pag40_lb3" facs="facs_pag40_lb3"/> un ragazzo d'altra base con la scabbia<pc>,</pc> che   
+                    <lb xml:id="pag40_lb4" facs="facs_pag40_lb4"/> doveva venire in infermeria<pc>.</pc> <sic>'</sic> Un giovane             
+                    <lb xml:id="pag40_lb5" facs="facs_pag40_lb5"/>di <num>17</num> anni assai bello <persName ref="#G"> <abbr type="initial">G </abbr> <expan>G.</expan> </persName> disse,
+                    <lb xml:id="pag40_lb6" facs="facs_pag40_lb6"/> se fossi pederasta me lo porterei a letto<pc>.</pc>
+                    <lb xml:id="pag40_lb7" facs="facs_pag40_lb7"/> <choice><sic>Ramento</sic><corr>Rammento</corr></choice> che a
+                    <persName ref="#B"> <abbr type="initial">B </abbr> <expan>B.</expan> </persName> si presentò un milite a
+                    <lb xml:id="pag40_lb8" facs="facs_pag40_lb8"/> fare la spia<sic>'</sic>, fuggì dopo <num>10</num> giorni<pc>,</pc> ma
+                    <lb xml:id="pag40_lb9" facs="facs_pag40_lb9"/> venne catturato alla stazione<pc>,</pc> fatto
+                    <lb xml:id="pag40_lb10" facs="facs_pag40_lb10"/> scendere dal treno e riportato alla base<pc>.</pc>
+                    <lb xml:id="pag40_lb11" facs="facs_pag40_lb11"/>Non ha biancheria da cambiarsi e con 
+                    <lb xml:id="pag40_lb12" facs="facs_pag40_lb12"/> questa malattia bisogna cambiarsi
+                    <lb xml:id="pag40_lb13" facs="facs_pag40_lb13"/>ogni giorno<pc>:</pc> gli ho prestato una maglia 
+                    <lb xml:id="pag40_lb14" facs="facs_pag40_lb14"/>e una camicia<pc>.</pc>
+                    <persName ref="#G"> <abbr type="initial">G</abbr> <expan>G.</expan> </persName>mi ha assicurato
+                    <lb xml:id="pag40_lb15" facs="facs_pag40_lb15"/>che <corr xml:id="corr_la" type="editorial"><orig>la</orig>le</corr> farà disinfettare con la massima
+                    <lb xml:id="pag40_lb16" facs="facs_pag40_lb16"/>cura<pc>.</pc> Oggi c'era un rapporto di ufficiali
+                    <lb xml:id="pag40_lb17" facs="facs_pag40_lb17"/>
+                    <del rend="overstrike" resp="#EA"> sulla <unclear>gil</unclear></del> Oncino, dove 5 giovani si sono
+                    <lb xml:id="pag40_lb18" facs="facs_pag40_lb18"/> lasciati catturare<pc>,</pc> a quanto si dice<pc>.</pc> Quando
+                    <lb xml:id="pag40_lb19" facs="facs_pag40_lb19"/>entrai con <persName>Giorgio</persName><pc>,</pc> <persName>Fiore</persName> si mise a protestare
+                    <lb xml:id="pag40_lb20" facs="facs_pag40_lb20"/> contro la mia presenza<pc>,</pc> ma 
+                    <persName ref="#B"> <abbr type="initial">B</abbr> <expan>B. </expan> </persName>mi disse
+                    <lb xml:id="pag40_lb21" facs="facs_pag40_lb21"/> di fermarmi<pc>,</pc> dato che tengo un posto di
+                    <lb xml:id="pag40_lb22" facs="facs_pag40_lb22"/>ufficiale<pc>,</pc> anche se non ho una squadra ai
+                    <lb xml:id="pag40_lb23" facs="facs_pag40_lb23"/>miei ordini<pc>.</pc> Bisogna che la ringrazi
+                    <lb xml:id="pag40_lb24" facs="facs_pag40_lb24"/> e intanto lo avverta che non intendo più
+                    <lb xml:id="pag40_lb25" facs="facs_pag40_lb25"/>trovarmi con <persName ref="#F"> <abbr type="initial">F </abbr> <expan>F. </expan> </persName>
+                    <del rend="overstrike" resp="#EA"> Ha già li </del> Per diffamarlo<pc>,</pc>
+                    <lb xml:id="pag40_lb26" facs="facs_pag40_lb26"/>racconterò a tutti la bella storia dei ve
+                    <lb xml:id="pag40_lb27" facs="facs_pag40_lb27"/> getariani e dell'esistenza di Dio'<pc>.</pc> E' proprio
+                    <lb xml:id="pag40_lb28" facs="facs_pag40_lb28"/>il tipo del lavoratore<pc>,</pc> che dopo aver servito
+                    <lb xml:id="pag40_lb29" facs="facs_pag40_lb29"/> per <num>40</num>generazione, adi<unclear reason="cut">o</unclear> coloro che non con
+                </ab>
+
+                <ab type="day">				
+					<!--Codifica pagina 41-->
+					<pb n="41" facs="pagina_41.jpeg" xml:id="pag41" type="full_page"/>
+                    <date when="1943-12-07"><gap reason="omitted"/></date>
+
+                    <!--Pagina 41-->
+                
+                    <lb xml:id="pag41_lib1"/> sidera proletari<pc>,</pc> e<pc>,</pc> come una schiavo arricchito
+                    <lb xml:id="pag41_lib2"/> che maltratta i suoi schiavi<pc>,</pc> si compiace e si di<lb/>
+                    <lb xml:id="pag41_lib3"/> verte a comandare<pc>:</pc> andato da <persName ref="#G"><abbr type="initial">Giov.</abbr><expan>Giovanni</expan></persName>non lo
+                    <lb xml:id="pag41_lib4"/> trovò in casa e protestò con la zia<pc>.</pc> <del rend="overstrike" resp="#EA">con tutti</del>
+                    <lb xml:id="pag41_lib5"/> <del rend="overstrike" resp="#EA">fa il prepotente.</del> A me un giorno disse<pc>:</pc> se <persName>Barbato</persName>
+                    <lb xml:id="pag41_lib6"/> vuol troppo comandare<pc>,</pc> si sentirà le sue<pc>.</pc>
+                    <lb xml:id="pag41_lib7"/> A <abbr>T.P</abbr> non può andare perchè lo caccerebbero
+                    <lb xml:id="pag41_lib8"/> via<pc>.</pc> Dio  mi scusi <persName ref="#F"><abbr type="initial">F</abbr><expan>F.</expan></persName> questa espressione puramente 
+                    <lb xml:id="pag41_lib9"/> rettorica  ci liberi da simili cani<pc>.</pc> Sono andato
+                    <lb xml:id="pag41_lib10"/> dalla <abbr> <expan>Signora</expan>sig.</abbr> <persName ref="#M"><abbr type="initial">M</abbr><expan>M.</expan></persName> che mi accompagnerà domani 
+                    <lb xml:id="pag41_lib11"/> e terrà d'occhio le valigie<pc>,</pc> mentre io sarò in
+                    <lb xml:id="pag41_lib12"/> un altro scompartimento<pc>.</pc> Speriamo di trovare
+                    <lb xml:id="pag41_lib13"/> la roba<pc>.</pc> E' una ragazza intelligente<pc>,</pc> sim
+                    <lb xml:id="pag41_lib14"/> patica<pc>,</pc> vivace ed entusiasta<pc>,</pc> molto adatta
+                    <lb xml:id="pag41_lib15"/> a questa missione<pc>.</pc> Non bella<pc>,</pc> ma freschissi
+                    <lb xml:id="pag41_lib16"/> ma di lineamenti come sono le fanciulle di
+                    <lb xml:id="pag41_lib17"/> <num>17</num> anni. Ora dovrò darle lezioni di latino.
+                    <lb xml:id="pag41_lib18"/> Dirò alla mamma che siccome adesso
+                    <lb xml:id="pag41_lib19"/> non sono un professore<pc>,</pc> ma un partigiano<pc>,</pc>
+                    <lb xml:id="pag41_lib20"/> anche le lezioni le voglio dare a profitto
+                    <lb xml:id="pag41_lib21"/> della banda<pc>,</pc> e quindi <del rend="overstrike" resp="#EA">paghi</del> faccia un versa
+                    <lb xml:id="pag41_lib22"/> mento tenendo conto che a <placeName ref="#TO">Torino</placeName> mi facevo
+                    <lb xml:id="pag41_lib23"/> pagare <num>30</num> lire per ora<pc>.</pc> Come sarò contento che
+                    <lb xml:id="pag41_lib24"/> domani mi andasse bene<pc>.</pc> Ho scritto a casa una
+                    <lb xml:id="pag41_lib25"/> bella cartolina indirizzata alla signora
+                    <lb xml:id="pag41_lib26"/> <persName ref="#A">Amelia</persName><pc>.</pc> Per nascondere <subst hand="#EA"><del rend="overstrike">l'esser mio</del><add place="above">la razza</add></subst><pc>,</pc> le 
+                    <lb xml:id="pag41_lib27"/> ho mandato gli auguri di buone feste na
+                    <lb xml:id="pag41_lib28"/> talizie<pc>.</pc> Firmato <persName>Eugenio Ansaldi</persName>
+                </ab>
+
+                <ab type="night">				
+					<!--Codifica pagina 63-->
+					<pb n="63" facs="pagina_63.jpeg" xml:id="pag63" type="full_page"/>
+                    <date when="1943-12-11"><gap reason="omitted"/></date>
+                
+                    <!-- Pagina 63 -->
+                    <lb xml:id="pag63_lib1" facs="facs_pag63_lb1"/> pensato che potrei essere un Ebreo e<pc>,</pc>
+                    <lb xml:id="pag63_lib2" facs="facs_pag63_lb2"/> sebbene cercassi di sviare il discorso<pc>,</pc>
+                    <lb xml:id="pag63_lib3" facs="facs_pag63_lb3"/> è sempre ricaduto nella compagnia 
+                    <lb xml:id="pag63_lib4" facs="facs_pag63_lb4"/> antisemita se lo faceva apposta<pc>,</pc> bisogna
+                    <lb xml:id="pag63_lib5" facs="facs_pag63_lb5"/> riconoscere che l'animo è tutt'altro
+                    <lb xml:id="pag63_lib6" facs="facs_pag63_lb6"/> che scemo<pc>.</pc>
+                    <lb xml:id="pag63_lib7" facs="facs_pag63_lb7"/>  <del rend="scribble"><gap reason="illegible" agent="scribble" unit="chars"></gap></del>a ho trascorso un'ora a ballare <num>300</num>
+                    <lb xml:id="pag63_lib8" facs="facs_pag63_lb8"/> ricevute di brani per l'Esercito<pc>,</pc> spu
+                    <lb xml:id="pag63_lib9" facs="facs_pag63_lb9"/> torbando sui cuscinetti del timbro<pc>,</pc>
+                    <lb xml:id="pag63_lib10" facs="facs_pag63_lb10"/> che sono più asciutti e più duri del
+                    <lb xml:id="pag63_lib11" facs="facs_pag63_lb11"/> tavolo ero un lavoro intelligente <pc>,</pc>
+                    <lb xml:id="pag63_lib12" facs="facs_pag63_lb12"/> di fiducia e di responsabilità<pc>;</pc> come
+                    <lb xml:id="pag63_lib13" facs="facs_pag63_lb13"/> di <persName ref="#B"> <abbr>Barb. </abbr> <expan>Barbato </expan> </persName> Scrivo da <num>3/4</num> al 
+                    <lb xml:id="pag63_lib14" facs="facs_pag63_lb14"/> freddo<pc>,</pc> di sera<pc>,</pc> oggi<pc>,</pc> <date when="1943-12-11"> 11 dicembre</date><pc>;</pc>
+                    <lb xml:id="pag63_lib15" facs="facs_pag63_lb15"/> Qualche anno fa non riuscivo a 
+                    <lb xml:id="pag63_lib16" facs="facs_pag63_lb16"/> scrivere ai primi di novembre
+                    <lb xml:id="pag63_lib17" facs="facs_pag63_lb17"/> in casa<pc>,</pc> <del rend="overstrike" resp="#EA" unit="chars"><unclear></unclear></del>se il termosifone non
+                    <lb xml:id="pag63_lib18" facs="facs_pag63_lb18"/> era acceso<pc>.</pc> Dovrà amare venire il 
+                    <lb xml:id="pag63_lib19" facs="facs_pag63_lb19"/> giorno in cui questa mi parrà una 
+                    <lb xml:id="pag63_lib20" facs="facs_pag63_lb20"/> vita di gran lusso e raffinatissima       
+                </ab>
+            </body>            
+        </text>
+    </group>
+    
+    
+    
+    <group xml:id="contenuto_pagine_diario" xml:lang="it" type="sentences">
+         <text>
+                <body>
+                    <div>
+                        <pb n="40" xml:id="diario_pagina_40" type="full_page"/>
+                            <ab xml:id="pagina40_intera" type="day" n="40" xml:lang="it">
+                            Sono in un albergo e aspetto l'ora di cena.
+                            Stamane scesi a St. Antonio, dove c'era
+                            un ragazzo d'altra base con la scabbia, che
+                            doveva venire in infermeria. Un giovane
+                            di 17 anni assai bello G. disse,
+                            se fossi pederasta me lo porterei a letto.
+                            Ramento che a B. si presentò un milite a
+                            fare la spia, fuggì dopo 10 giorni, ma 
+                            venne catturato alla stazione, fatto 
+                            scendere dal treno e riportato alla base.
+                            Non ha biancheria da cambiarsi e con
+                            questa malattia bisogna cambiarsi
+                            ogni giorno: gli ho prestato una maglia
+                            e una camicia. G. mi ha assicurato
+                            che la farà disinfettare con la massima
+                            cura. Oggi c'era un rapporto di ufficiali
+                            sulla     Oncino, dove 5 giovani si sono lasciati 
+                            catturare, a quanto si dice. Quando
+                            entrai con Giorgio, Fiore si mise a protestare
+                            contro la mia poresenza, ma B. mi disse
+                            di fermarmi, dato che tengo un posto di
+                            ufficiale, anche se non ho una squadra ai
+                            miei ordini. Bisogna che la ringrazi
+                            e intanto lo avverta che non intendo più
+                            trovarmi con F. Per diffarmalo,
+                            racconterò a tutti la bella storia dei ve
+                            getariani e dell'esistenza di Dio. E' proprio
+                            il tipo del lavoratore, che dopo aver servito
+                            per 40 generazione, adi coloro che non con
+                            </ab>
+
+                        <pb n="41" xml:id="diario_pagina_41" type="full_page"/>
+                            <ab xml:id="pagina41_intera" type="day" n="41" xml:lang="it">
+                            sidera proletari, e, come una schiavo arrichito
+                            che maltratta i suoi schiavi, si compiace e si di
+                            verte a comandare: andato da Giov. non lo
+                            trovà in casa e protestò con la zia.
+                            A me un giorno disse: se Barbato
+                            vuole troppo comandare, si sentirà le sue.
+                            A T.P non può andare perchè lo caccerebbero
+                            via. Dio mi scusi F. questa espressione puramente
+                            rettorica ci liberi da simili cani. Sono andato
+                            dalla Sig. M. che mi accompagnerà domani
+                            e terrà d'occhio le valigie, mentre io sarò in
+                            un altro scompartimento. Speriamo di trovare
+                            la roba. E' una ragazza intelligente, sim
+                            patica, vivace ed entusiasta, molto adatta
+                            a questa missione. Non bella, ma freschissi
+                            ma di lineamenti come sono le fanciulle di
+                            17 anni. Ora dovrò darle lezioni di latino.
+                            Dirò alla mamma che siccome adesso
+                            non sono un professore, ma un partigiano,
+                            anche le lezioni le voglio dare a profitto
+                            della banda, e quindi faccia un versa
+                            mento tenendo conto che a Torino mi facevo
+                            pagare 30 lire per ora. Come sarò contento che
+                            domani mi andasse bene. Ho scritto a casa una
+                            bella cartolina indirizzata alla signora
+                            Per nascondere la razza, le
+                            ho mandato gli auguri di buone na
+                            talizie. Firmato Eugenio Ansaldi.
+                            </ab>
+
+                         <pb n="63" xml:id="diario_pagina_63" type="full_page"/>
+                            <ab xml:id="pagina63_intera" type="night" n="63" xml:lang="it">
+                            pensato che potrei essere un Ebreo e,
+                            sebbene cercassi di sviare il discorso,
+                            è sempre ricaduto nella compagnia
+                            antisemita se lo faceva apposta, bisogna
+                            riconoscere che l'animo è tutt'altro
+                            che scemo.
+                            a ho trascorso un'ora a ballare 300
+                            ricevuti di brani per l'Esercito, spu
+                            torbando sui cuscinetti del timbro,
+                            che sono più asciutti e duri del
+                            tavolo ero un lavoro intelligente,
+                            di fiducia e di responsabilità; come 
+                            di Barb Scrivo da 3/4 al
+                            freddo, di sera, oggi 11 dicembre;
+                            Qualche anno fa non riuscivo a
+                            scrivere ai primi di novembre
+                            in casa, se il termosifone non
+                            era acceso. Dovrà amare venire il
+                            giorno in cui questa mi parrà una
+                            vita di gran lusso e raffinatissima                            
+                            </ab>
+
+                    </div>
+                </body>
+            </text>
+        </group>
+    </group>
+<back>
+<div>
+
+<listOrg xml:id="lista-organizzazioni">
+<org xml:id="CDEC">
+<orgName ref="https://it.wikipedia.org/wiki/Fondazione_centro_di_documentazione_ebraica_contemporanea">Fondazione Centro di Documentazione Ebraica Contemporanea</orgName>
+<placeName ref="#MI">Milano</placeName>
+<desc>
+La Fondazione Centro di Documentazione Ebraica Contemporanea CDEC è un istituto storico culturale indipendente con sede a Milano.
+</desc>
+</org>
+<org xml:id="Unipi">
+<orgName ref="https://it.wikipedia.org/wiki/Universit%C3%A0_di_Pisa"> di Pisa</orgName>
+<placeName ref="#PI">Pisa</placeName>
+<desc>
+L'Università di Pisa (UniPi), istituita ufficialmente nel 1343, è una delle più antiche e prestigiose università in Italia e in Europa.
+</desc>
+</org>
+</listOrg>
+
+<listPlace xml:id="diario-luoghi"> 
+<head>Luoghi</head>
+<place>
+<placeName ref="https://www.geonames.org/3173435/milan.html https://www.treccani.it/enciclopedia/milano">Milano</placeName>
+<country key="IT">Italia</country>
+</place>
+<place>
+<placeName xml:id="PI" ref="https://www.geonames.org/3170647/pisa.html https://www.treccani.it/enciclopedia/pisa/">Pisa</placeName>
+<country key="IT">Italia</country>
+</place>
+<place>
+<placeName xml:id="TO" ref="https://it.wikipedia.org/wiki/Torino">Torino</placeName>
+<country key="IT">Italia</country>
+</place>                                                              
+</listPlace>
+
+<listPerson xml:id="diario-persone">
+<head>Persone</head>
+<person sameAs="http://worldcat.org/identities/lccn-n85366771/"> 
+<persName xml:id="EA"  role="author"> 
+<forename>Emanuele</forename>
+<surname>Artom</surname>
+</persName>
+<sex>M</sex>
+<birth>
+<date when="1915-06-23">23 Giugno 1915</date>
+<placeName xml:id="AO">
+<settlement>Aosta</settlement>
+<country key="IT">Italia</country>
+</placeName>
+</birth>
+<death>
+<date when="1944-04-07">7 aprile 1944</date>
+<placeName ref="#TO">
+<settlement>Torino</settlement>
+<country key="IT">Italia</country>
+</placeName>
+</death>
+</person>
+
+<person>
+<persName xml:id="MP" role="student"> 
+<forename>Manuel</forename>
+<surname>Pilia</surname>
+</persName>
+<sex>M</sex>
+<birth>
+<date when="1998-02-14">14 Febbraio 1998</date>
+<placeName xml:id="CA">
+<settlement>Cagliari</settlement>
+<country key="IT">Italia</country>
+</placeName>
+</birth> 
+</person>
+
+<person sameAs="https://cophilab.ilc.cnr.it/people/angelo-mario-del-grosso/"> 
+<persName xml:id="AMDG" role="professor"> 
+<forename>Angelo</forename>
+<forename>Mario</forename>
+<surname>Del Grosso</surname>
+</persName>
+<sex>M</sex>
+</person>
+
+<person sameAs="http://worldcat.org/identities/lccn-n85366771/"> 
+<persName xml:id="EmanueleArtom"  role="author"> 
+<forename>Emanuele</forename>
+<surname>Artom</surname>
+</persName>
+<sex>M</sex>
+<birth>
+<date when="1915-06-23">23 Giugno 1915</date>
+<placeName xml:id="Aosta">
+<settlement>Aosta</settlement>
+<country key="IT">Italia</country>
+</placeName>
+</birth>
+<death>
+<date when="1944-04-07">7 Aprile 1944</date>
+<placeName ref="TO">
+<settlement>Torino</settlement>
+<country key="IT">Italia</country>
+</placeName>
+</death>
+</person>
+
+<person>
+<persName xml:id="GSC" role="professor"> 
+<forename>Guri</forename>
+<surname>Scwarz</surname>
+</persName>
+<sex>M</sex>
+<birth>
+<date when="1975-03-02">2 Marzo 1975</date>
+<placeName xml:id="MI">
+<settlement>Milano</settlement>
+<country key="IT">Italia</country>
+</placeName>
+</birth> 
+</person>
+
+<person> 
+<persName xml:id="AA" role="author">
+<forename>Amalia</forename>
+<surname>Artom</surname>
+</persName>
+<sex>F</sex>
+</person>
+</listPerson>
+</div>
+</back>
+
+</text>
+</TEI>
