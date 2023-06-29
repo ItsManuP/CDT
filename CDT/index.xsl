@@ -261,7 +261,7 @@
 </div>
 </xsl:template>
 
-<!-- frasi completate -->
+<!-- frasi complete -->
 <xsl:template match="tei:group[@type='frasi']">
 <div class="trscgrn-group">
 <xsl:apply-templates/>
